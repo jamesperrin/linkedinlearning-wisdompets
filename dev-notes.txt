@@ -1,0 +1,17 @@
+sudo apt install python3-pip
+sudo apt install python3-django
+pip3 install django==3.0.3
+django-admin startproject wisdompets
+python3 manage.py runserver
+http://localhost:8000
+git remote add origin https://TOKEN@github.com/jamesperrin/linkedinlearning-wisdompets
+python3 manage.py startapp adoptions
+
+File on Folder
+    apps.py - Controls settings for apps
+    models.py - Database layer for DB schema and queries
+    admin.py - Admin interface to change data.
+    urls.py - Routing
+    views.py -
+    tests.py - Unit Tests
+    migrations.py - DB migrations
